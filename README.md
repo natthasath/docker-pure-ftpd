@@ -10,7 +10,7 @@ Transmission of cleartext passwords and commands can be avoided : Pure-FTPd has 
 
 ### 🥈 Run
 
-- [ftp://localhost](ftp://localhost) username : `admin` password : `admin`
+- [ftp://localhost/](ftp://localhost/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
