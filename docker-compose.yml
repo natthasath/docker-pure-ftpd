@@ -5,12 +5,11 @@ services:
     container_name: pure-ftpd
     restart: always
     ports:
-      - 21:21
-      - 30000-30009:30000-30009
+      - "21:21"
+      - "30000-30009:30000-30009"
     volumes:
-      - /etc/data:/home/username/
-      - /etc/passwd:/etc/pure-ftpd/passwd
-      - /etc/ssl:/etc/ssl/private/
+      - /folder_on_disk/data:/home/username/
+      - /folder_on_disk/passwd:/etc/pure-ftpd/passwd
     environment:
       PUBLICHOST: "localhost"
       FTP_USER_NAME: admin
