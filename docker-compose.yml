@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  pure-ftpd:
+    image: stilliard/pure-ftpd:latest
+    container_name: pure-ftpd
+    restart: always
+    ports:
+      - 21:21
+      - 30000-30009:30000-30009
+    volumes:
+      - /etc/data:/home/username/
+      - /etc/passwd:/etc/pure-ftpd/passwd
+      - /etc/ssl:/etc/ssl/private/
+    environment:
+      PUBLICHOST: "localhost"
+      FTP_USER_NAME: admin
+      FTP_USER_PASS: admin
+      FTP_USER_HOME: /home/admin
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
