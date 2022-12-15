@@ -10,8 +10,9 @@ Transmission of cleartext passwords and commands can be avoided : Pure-FTPd has 
 
 ### 🥈 FTP
 
+- username : `admin` password : `admin`
 ```shell
-ftp://localhost/ username : `admin` password : `admin`
+ftp://localhost/ 
 ```
 
 ### 🥈 Run
