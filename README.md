@@ -8,9 +8,13 @@ Transmission of cleartext passwords and commands can be avoided : Pure-FTPd has 
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 🥈 Run
+### 🥈 FTP
 
-- [ftp://localhost/](ftp://localhost/) username : `admin` password : `admin`
+```shell
+ftp://localhost/ username : `admin` password : `admin`
+```
+
+### 🥈 Run
 
 ```shell
 docker-compose up -d
