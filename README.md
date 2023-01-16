@@ -1,8 +1,6 @@
 # 🎉 Docker Pure-FTPd
 
-Pure-FTPd is actively supported, and it was always designed with security in mind, and the code is always re-audited as new kind of vulnerabilities are discussed.
-The server can run with privilege separation for paranoid security. It can even run 100% non-root, with its built-in chroot() emulation and virtual accounts.
-Transmission of cleartext passwords and commands can be avoided : Pure-FTPd has optional support for an SSL/TLS encryption layer using the OpenSSL library.
+Pure-FTPd is a free, secure FTP server software. It supports various auth methods, runs in different modes, low memory footprint, designed for high-concurrency environments with advanced security features like chroot() and privilege separation.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
