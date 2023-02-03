@@ -12,7 +12,7 @@ Pure-FTPd is a free, secure FTP server software. It supports various auth method
 docker-compose up -d
 ```
 
-### 👉 Try it out
+### 👉🏻 Try it out
 
 - username : `admin` password : `admin`
 ```shell
